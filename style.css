@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+  
+}
+.nav {
+  display: flex;
+}
+
+.t-center {
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: #487f2e;
+}
+
+.col {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav .col {
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #c4fea9;
+}
+
+.bg-yellow {
+  background-color: #fefa99;
+}
+
+.padding {
+  padding-top: 25px;
+  padding-left: 170px;
+  padding-bottom: 25px;
+}
+
+.heading {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #5b803d;
+  font-size: 40px;
+}
+
+.main {
+  background-color: #fefa99;
+}
+
+.fill {
+  height: 60vh;
+}
+
+.footer {
+  background-color: #487f2e;
+  padding: 20px 0;
+}
+
+.copyright {
+  text-align: center;
+  color: #fefa99;
+}
+
+.active{
+  background-color: green;
+  
+}
+
+.active a{
+  color:#fefa99; 
+}
+
+
+.content{
+  display: flex;
+}
+
+
+#pikaso{
+  width: 50px;
+  margin: 0px;
+  color: green;
+  text-shadow: rgb(28, 27, 24) 1px 0 10px;
+  position: relative;
+  left: 350px;
+  top: 110px;
+  font-size: 40pt;
+}
+
+
+img{
+  width: 450px;
+  height: 500px;
+  /*opacity: 0.5;*/
+}
+
+
+#slikeOpis{
+  width: 450px;
+  height: 500px;
+  background-color: #c4fea9;
+  text-align: center;
+}
+
+#slajder{
+  display: flex;
+}
+
+#naslovSlike{
+  color: green;
+  text-shadow: rgb(28, 27, 24) 1px 0 10px;
+}
+
+#godinaSlike{
+  color: gray;
+  font-size: 20pt;
+}
+
+/*
+https://www.w3schools.com/howto/howto_css_circles.asp
+
+*/
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+}
