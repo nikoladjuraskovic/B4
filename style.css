@@ -7,7 +7,6 @@
 .container {
   width: 1150px;
   margin: 0 auto;
-  
 }
 .nav {
   display: flex;
@@ -46,6 +45,9 @@
 }
 
 .heading {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: block;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -71,57 +73,53 @@
   color: #fefa99;
 }
 
-.active{
+.active {
   background-color: green;
-  
 }
 
-.active a{
-  color:#fefa99; 
+.active a {
+  color: #fefa99;
 }
 
-
-.content{
+.content {
   display: flex;
 }
 
-
-#pikaso{
+#pikaso {
   width: 50px;
   margin: 0px;
   color: green;
   text-shadow: rgb(28, 27, 24) 1px 0 10px;
-  position: relative;
-  left: 350px;
-  top: 110px;
+  /* position: relative; */
+  /* left: 350px; */
+  /* top: 110px; */
   font-size: 40pt;
+  margin-right: 40px;
 }
 
-
-img{
+img {
   width: 450px;
   height: 500px;
   /*opacity: 0.5;*/
 }
 
-
-#slikeOpis{
+#slikeOpis {
   width: 450px;
   height: 500px;
   background-color: #c4fea9;
   text-align: center;
 }
 
-#slajder{
+#slajder {
   display: flex;
 }
 
-#naslovSlike{
+#naslovSlike {
   color: green;
   text-shadow: rgb(28, 27, 24) 1px 0 10px;
 }
 
-#godinaSlike{
+#godinaSlike {
   color: gray;
   font-size: 20pt;
 }
@@ -137,4 +135,12 @@ https://www.w3schools.com/howto/howto_css_circles.asp
   background-color: gray;
   border-radius: 50%;
   display: inline-block;
+}
+
+.dots-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
 }
